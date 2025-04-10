@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Découverte</title>
+        <!-- Link -->
+        <link rel="stylesheet" href="assets/style.css">
+        <script defer src="assets/script/app.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Inconsolata:wght@200..900&family=Pavanam&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/vnd.icon" href="/assets/images/logo_gotaga_blanc.svg">
+        <!-- Meta partage -->
+        <meta property="og:site_name" content="Gotaga by Thomas" >
+        <meta property="og:title" content="The French Monster" >
+        <meta property="og:description" content="Vous ne connaisez pas Gotaga? Alors rejoignez-nous pour le découvrir!" >
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.thomasbruch.be/janus" >
+        <meta property="og:image" content="assets/images/logo_gotaga_blanc.svg" >
+        <meta property="og:image:width" content="1800">
+        <meta property="og:image:height" content="945">
+    </head>
+
+   <!-- chatGPT a uniquement été utilisé dans ce code pour le changement de navigation de mobile a desktop -->
+
+    <body class="background" data-theme="dark">
+        <!-- Navigation -->
+        <nav class="menu">
+            <ul class="menu__el">
+                <!-- Navigation desktop -->
+                <li><img class="icon a-animation" src="assets/images/logo_gotaga_blanc.svg" data-dark="assets/images/logo_gotaga_blanc.svg" data-light="assets/images/logo_gotaga_black.svg" alt="Logo blanc de Gotaga"></li>
+                <li class="nav-item a--animation active"><a href="index.html">Découverte</a></li>
+                <li class="nav-item a--animation"><a href="parcours.html">Parcours</a></li>
+                <li class="nav-item a--animation"><a href="appreciations.html">Appréciations</a></li>
+        
+                <!-- Navigation mobile   -->
+                <li><img class="icon icon--theme icon--libre btn--darkmode" src="assets/images/icon_theme.svg" data-dark="assets/images/icon_theme.svg" data-light="assets/images/icon_theme_black.svg" alt="Icone pour changer le thème"></li>
+                <li><p class="nav-item--none">Découverte</p></li>
+
+                <!-- Icône menu burger  -->
+                <li class="burger-menu">
+                    <button class="burger-button">
+                        <img class="icon" src="assets/images/icon_burger.svg" data-dark="assets/images/icon_burger.svg" data-light="assets/images/icon_burger_black.svg" alt="Icône pour ouvrir le burger menu">
+                    </button>
+                </li>
+            </ul>
+        
+            <!-- Liste déroulante burger menu -->
+            <ul class="burger-button__liste">
+                <li><a href="index.html" class="active">Découverte</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="appreciations.html">Appréciations</a></li>
+            </ul>
+        </nav>
+          
+        <!-- Navigation de sections -->
+        <div class="anchor-navigation">
+            <ul>
+                <li class="anchor-navigation__el"><a href="#section-header--decouverte"></a></li>
+                <li class="anchor-navigation__el"><a href="#section-1--decouverte"></a></li>
+                <li class="anchor-navigation__el"><a href="#section-2--decouverte"></a></li>
+                <li class="anchor-navigation__el"><a href="#section-3--decouverte"></a></li>
+                <li class="anchor-navigation__el"><a href="#section-4--decouverte"></a></li>
+                <li class="anchor-navigation__el"><a href="#section-5--decouverte"></a></li>
+                <li class="anchor-navigation__el"><a href="#section-footer--decouverte"></a></li>
+            </ul>
+        </div>
+        
+        <!-- Header plein écran -->
+        <header class="header__bg--1 section--header" id="section-header--decouverte">
+            <a href="#section-1--decouverte">
+                <img class="header__img" src="assets/images/icon_arrow.svg" alt="Icône de double flèche indiquant la navigation vers la section suivante">
+            </a>
+        </header>
+        
+        <div class="header__box"></div>
+
+        <!-- Contenu de la page -->
+        <main>
+            <!-- Section 1 -->
+            <section id="section-1--decouverte" class="m1grid">
+                <h1 class="title-big m1grid-start1 m1grid-end5 d1grid-start2 d1grid-end3">Une légende Française</h1>
+
+                <h2 class="title-section m1grid-start2 m1grid-end6 d1grid-end4">Gotaga c'est...</h2>
+
+                <p class="m1grid-start2 m1grid-end5 d1grid-end4">
+                    Gotaga, aussi connu comme le French Monster, est une figure emblématique de l'e-sport et du streaming français.  
+                </p>
+
+                <p class="m1grid-start2 m1grid-end5 d1grid-end4">
+                    Il s'est fait une place grâce à ses performances exceptionnelles en compétition, notammentsur Call of Duty, où il a marqué l'histoire en remportant plusieurs titres majeurs comme par exemple Victoire à l'Opale Arena 2010, Succès consécutifs aux Reflex GT 7 et Reflex GT 8 ou encore Triomphe à la Gamers Assembly 2014 et bien d'autres.
+                </p>
+
+                <p class="m1grid-start2 m1grid-end5 d1grid-end4">
+                    Aujourd'hui, Gotaga est bien plus qu'un joueur : c'est un créateur de contenu suivi par des millions de personnes, un entrepreneur et un ambassadeur du gaming en France.
+                </p>
+            </section>
+
+            <!-- Section 2 -->
+            <section id="section-2--decouverte" class="m1grid">
+                <div class="section__box section__box--decouverte m1grid-start1 m1grid-end6">
+                    <div class="text-container m1grid-start2 m1grid-end5 d1grid-start3">
+                        <h2 class="title-section">D'où sort-il?</h2>
+
+                        <p>
+                            Fils d'un père informaticien, Corentin Houssein a toujours été entouré par des ordinateurs depuis son plus jeune âge. Il découvre le milieu du jeu vidéo à l'âge de 8 ans, lorsqu'il reçoit une Xbox.
+                        </p>
+                        
+                        <p>
+                            Le 31 août 2008, il lance sa chaîne <a class="animated-link" href="https://www.youtube.com/@Gotaga">YouTube</a>. Gotaga commence son ascension dans l'e-sport en 2008, à seulement 15 ans, lorsqu'il se fait remarquer sur Call of Duty grâce à son talent hors norme pour son âge. Surnommé "Le French Monster" pour ses exploits, il devient rapidement une légende dans l'univers des jeux-vidéos compétitifs.
+                        </p>
+                        
+                        <p>
+                            En parallèle de sa carrière de joueur professionnel, son compte <a class="animated-link" href="https://www.twitch.tv/gotaga">Twitch</a> Gotaga, où il partage des streams de gameplay, des défis, et des collaborations avec d'autres stars du gaming. Aujourd'hui, il est suivi par plus de 5 millions d'abonnés tous réseaux sociaux confondus.
+                        </p>
+                    </div>
+
+                    <figure class="img--big section__img image-container m1grid-start1 m1grid-end5 d1grid-start1 d1grid-end3">
+                        <img src="assets/images/image_gotaga.png" srcset="assets/images/image_gotaga@2x.png 2x" alt="Gotaga, joueur français d'e-sport, debout avec une casquette Red Bull">
+                        <figcaption class="figure__legende">Redbull: Corentin 'Gotaga'Houssein</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section id="section-3--decouverte" class="m1grid">
+                <h2 class="title-section m1grid-start2 m1grid-end6 d1grid-end3">Sa force?</h2>
+
+                <p class="m1grid-start2 m1grid-end5 d1grid-end4">
+                    L'une des grandes forces de Gotaga réside dans son charisme et sa polyvalence. Qu'il s'agisse de performances e-sports, de divertissement ou de collaborations avec d'autres grands influenceurs, on y retrouve doigby et inoxtag mais encore bien d'autres, il excelle dans tout ce qu'il entreprend. Son énergie communicative et sa capacité à rassembler une communauté passionnée font de lui un pilier incontournable du gaming francophone.
+                </p>
+
+                <p class="m1grid-start2 m1grid-end5 d1grid-end4">
+                    Il est capable de séduire à la fois les gamers de la première heure et la nouvelle génération grâce à son authenticité. Il a également joué un rôle dans la Team Vitality, où il occupait le rôle de mentor et d'ambassadeur, ce qui démontre son envie à faire progresser l'e-sport en France et à inspirer une nouvelle génération de joueurs.
+                </p>
+            </section>
+
+            <!-- Section 4 -->
+            <section id="section-4--decouverte" class="m1grid">
+                <div class="section__box section__box--decouverte m1grid-start1 m1grid-end6">
+                    <div class="text-container m1grid-start2 m1grid-end5 d1grid-start3">
+                        <h2 class="title-section">L'essence du French Monster</h2>
+
+                        <p>
+                            Gotaga, c'est bien plus qu'un joueur talentueux : c'est une véritable icône du gaming. Reconnu comme un champion, il impressionne par ses compétences exceptionnelles en jeu et par son esprit d’équipe qui inspire le respect. Mais Gotaga, c’est aussi un leader qui motive ses viewers par sa détermination et son travail acharné, que ce soit sur le terrain des compétitions ou lors de ses streams.
+                        </p>
+                        
+                        <p>
+                            Avec sa capacité à rassembler, Gotaga crée une ambiance conviviale où chacun se sent à sa place. Proche de sa communauté, il partage des moments uniques avec ses viewers aussi bien en live que lors d'événements variés. Lorsqu’il était mentor dans la team Vitality, il était 
+                        </p>
+                    </div>
+
+                    <div class="img--big image-container m1grid-start2 m1grid-end5 d1grid-start2 d1grid-end3">
+                        <img class="img--big image-container" src="assets/images/Acrostiche_gotaga.svg" alt="Acrostique de Gotaga">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 5 -->
+            <section id="section-5--decouverte" class="m1grid">
+                <h2 class="title-section m1grid-start2 m1grid-end5 d1grid-end4">Au delà des streams</h2>
+
+                <p class="m1grid-start2 m1grid-end5 d1grid-end4">
+                    Le 13 avril 2023, Gotaga annonce la création de son propre club esport “Gentle Mates” dont le tag est “M8” avec Squeezie et Brawks, qui sont deux autres youtubers qui sont aussi passionnés par le gaming et le streaming.
+                </p>
+
+                <p class="m1grid-start2 m1grid-end5 d1grid-end4">
+                    Il participe également à des événements spéciaux, comme des compétitions caritatives par exemple de Z Event, le Gotaga Show, Enfant et Partage, etc. Ou des collaborations mémorables avec d'autres influenceurs comme squeezie, inoxtag, lebouseuh, doigby, etc. Enfin, il travaille avec des marques pour concevoir des produits liés au gaming, partageant ainsi sa passion avec un public toujours plus large rendant ainsi accessible le monde du gaming à tout un chacun.
+                </p>
+            </section>
+            
+            <!-- Section 6 -->
+            <section id="section-6--decouverte" class="m1grid">
+                <div class="section__box section__box--decouverte m1grid-start1 m1grid-end6">
+                    <div class="m1grid-start2 m1grid-end5 d1grid-end4">
+                        <h2 class="title-section">Rejoignez l'aventure!</h2>
+
+                        <p>
+                            Que ce soit sur Twitch, YouTube, ou ses réseaux sociaux, Gotaga partage sa passion pour le gaming et le streaming. Suivez-le et découvrez pourquoi on l'appelle "Le French Monster" !
+                        </p>
+                        
+                        <iframe src="https://www.youtube.com/embed/FZNP6d_uDIo?si=bAGTi_DVN6ylq6aO" allowfullscreen></iframe>
+
+                        <a href="parcours.html" class="btn">Continuer</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+         <!-- Footer -->
+         <footer id="section-footer--decouverte" class="section--footer m1grid">
+            <div class="footer__title-align m1grid-start1 m1grid-end5">
+                <img class="icon" src="assets/images/logo_gotaga_blanc.svg" data-dark="assets/images/logo_gotaga_blanc.svg" data-light="assets/images/logo_gotaga_black.svg" alt="Logo blanc de Gotaga">
+                
+                <h2 class="title-section">otaga</h2>
+            </div>
+            
+            <div class="m1grid-start1 m1grid-end3">
+                <h3 class="title-footer">Réseaux-sociaux</h3>
+    
+                <a href="https://x.com/GotagaTV">Twitter</a>
+                <a href="https://www.youtube.com/@Gotaga">Youtube</a>
+                <a href="https://www.instagram.com/gotaga/">Instagram</a>
+                <a href="https://www.tiktok.com/@gotaga">Tiktok</a>
+            </div>
+    
+            <div class="m1grid-start3 m1grid-end6">
+                <h3 class="title-footer">Informations</h3>
+    
+                <a href="https://gotaga.tv/extensions">Extention</a>
+                <a href="https://gotaga.tv/mentions-legales">Mention Légales</a>
+                <a href="https://gotaga.tv/politique-de-confidentialite">Politique de confidentialité</a>
+                <a href="http://www.thomasbruch.be">Conception</a>
+            </div>
+        </footer>
+    </body>
+</html>
